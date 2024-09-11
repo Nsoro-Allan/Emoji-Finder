@@ -55,7 +55,7 @@ const EmojiGenerator = () => {
     <div className={`min-h-screen flex items-center justify-center ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'}`}>
       <div className={`w-full max-w-md p-8 space-y-8 rounded-xl shadow-[0_0_20px_rgba(0,0,0,0.1),0_0_10px_rgba(0,0,0,0.1)] ${darkMode ? 'bg-gray-800 bg-opacity-50' : 'bg-white'} backdrop-filter backdrop-blur-lg`}>
         <div className="flex justify-between items-center">
-          <h1 className="text-3xl font-bold">Emoji AI Generator</h1>
+          <h1 className="text-3xl font-bold">Emoji Finder</h1>
           <button
             onClick={toggleDarkMode}
             className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
