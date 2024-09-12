@@ -21,7 +21,7 @@ const EmojiGenerator = () => {
       const response = await axios.get(`https://emoji-api.com/emojis`, {
         params: {
           search: prompt,
-          access_key: '524ff6c6d882289e40f62de44925062599df6203' // Replace with your actual API key
+          access_key: '524ff6c6d882289e40f62de44925062599df6203' // API key
         }
       });
       
@@ -76,7 +76,7 @@ const EmojiGenerator = () => {
             disabled={loading}
             className="w-full p-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors disabled:bg-blue-400"
           >
-            {loading ? 'Generating...' : 'Generate Emoji'}
+            {loading ? 'Searching...' : 'Find Emoji'}
           </button>
         </div>
         <div className="text-center">
